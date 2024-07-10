@@ -1,0 +1,9 @@
+.flex-half {
+    flex: 1; /* Each column takes up equal space */
+    width: 50%; /* Each column occupies 50% of the container */
+    box-sizing: border-box; /* Optional: Include padding in width calculation */
+}
+.note-content {
+    font-family: Georgia, serif;
+}
+ 
