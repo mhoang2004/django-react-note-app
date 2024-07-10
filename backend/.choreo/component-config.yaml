@@ -2,7 +2,6 @@ apiVersion: core.choreo.dev/v1beta1
 kind: ComponentConfig
 spec:
     inbound:
-        version: 0.1
         - name: REST API
           port: 9090
           type: REST
