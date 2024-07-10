@@ -7,3 +7,8 @@ spec:
           type: REST
           networkVisibility: Public
           context: /
+          schemaFilePath:
+    outbound:
+        serviceReferences:
+            - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+            connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e81412
