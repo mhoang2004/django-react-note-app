@@ -1,9 +1,8 @@
-version: 0.1
+version: 0.3
 
 endpoints:
-    - name: 'REST API'
-      port: 8000
+    - name: REST API
+      port: 9090
       type: REST
       networkVisibility: Public
       context: /
-  
