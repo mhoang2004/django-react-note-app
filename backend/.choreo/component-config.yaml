@@ -1,8 +1,9 @@
-version: 0.1
-
-endpoints:
-    - name: REST API
-      port: 9090
-      type: REST
-      networkVisibility: Public
-      context: /
+apiVersion: core.choreo.dev/v1beta1
+kind: ComponentConfig
+spec:
+    inbound:
+        - name: REST API
+          port: 9090
+          type: REST
+          networkVisibility: Public
+          context: /
